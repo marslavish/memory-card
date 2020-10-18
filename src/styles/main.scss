@@ -1,0 +1,43 @@
+.whole-page {
+  background: url('https://vignette.wikia.nocookie.net/onepiece/images/5/50/Wiki-background/revision/latest?cb=20170930002910');
+  padding-bottom: 1rem;
+}
+
+.row {
+  --bs-gutter-x: 0;
+}
+
+.navbar {
+  color:#c3ae93;
+  background-color:#3b210c;
+}
+
+.score {
+  color: #c3ae93;
+}
+
+.cards-container {
+  background-color: rgba(63, 45, 29, 0.564);
+  margin: 1rem 1rem;
+  padding: 1rem 0;
+  margin-bottom: 0;
+  border: 2px solid rgba(63, 45, 29, 0.564);
+  border-radius: 1rem;
+}
+
+.card {
+  margin-right: 1rem;
+  max-width: 18rem;
+  border: none;
+  background-color: rgba(63, 45, 29, 0.564);
+  cursor: pointer; 
+  transition: box-shadow 0.3s;
+
+  &:hover {
+    box-shadow: 9px 10px 10px -3px rgba(59, 33, 12, 1);
+  }
+
+  &:nth-child(4n) {
+    margin-right: 0;
+  }
+}
